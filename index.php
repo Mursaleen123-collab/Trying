@@ -3,7 +3,9 @@
 
 <head>
 	<title>Admin Dashboard</title>
-
+	<script>
+		alert('check changes');
+	</script>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
