@@ -51,13 +51,17 @@
 							<div class="app-card-body p-3 p-lg-4">
 								<div class="auth-form-container text-start mx-auto">
 									<form class="row g-3">
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<label for="firstname" class="form-label">First Name</label>
 											<input type="text" class="form-control" id="firstname">
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<label for="lastname" class="form-label">Last Name</label>
 											<input type="text" class="form-control" id="lastname">
+										</div>
+										<div class="col-md-4">
+											<label for="image" class="form-label">Image</label>
+											<input type="file" class="form-control" id="image">
 										</div>
 										<div class="col-md-6">
 											<label for="email" class="form-label">Email</label>
