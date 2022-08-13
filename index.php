@@ -4,7 +4,7 @@
 <head>
 	<title>Admin Dashboard</title>
 	<script>
-		alert('check changes');
+		console.log(2 + 2);
 	</script>
 	<!-- Meta -->
 	<meta charset="utf-8">
