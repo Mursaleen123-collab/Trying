@@ -10,7 +10,7 @@
             <ul>
                 <li><a class="active" href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="courses.php">Courses</a></li>
+                <li><a href="courses.php">Degree</a></li>
                 <li><a href="trainers.php">Trainers</a></li>
                 <li><a href="events.php">Events</a></li>
 
@@ -19,7 +19,7 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <a href="user/login.php" class="get-started-btn">User Login</a>
+        <a href="student/student-login.php" class="get-started-btn">Student Login</a>
 
     </div>
 </header><!-- End Header -->

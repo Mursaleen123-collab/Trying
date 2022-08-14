@@ -5,14 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Trainers - Mentor Bootstrap Template</title>
+    <title>Trainers</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -27,13 +22,6 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: Mentor - v4.8.1
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -45,7 +33,6 @@
         <div class="breadcrumbs">
             <div class="container">
                 <h2>Trainers</h2>
-                <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
             </div>
         </div><!-- End Breadcrumbs -->
 

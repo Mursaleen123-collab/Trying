@@ -28,7 +28,7 @@
 
 		<div class="app-content pt-3 p-md-3 p-lg-4">
 			<div class="container-xl">
-				<h1 class="app-page-title">Course Offered</h1>
+				<h1 class="app-page-title">Degree Offered</h1>
 
 
 				<div class="row g-4 mb-4">
@@ -75,7 +75,7 @@
 							<div class="app-card-header p-3">
 								<div class="row justify-content-between align-items-center">
 									<div class="col-auto">
-										<h4 class="app-card-title">Add New Course</h4>
+										<h4 class="app-card-title">Add New Degree</h4>
 									</div>
 									<!--//col-->
 								</div>
