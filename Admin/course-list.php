@@ -183,13 +183,13 @@
 								<option>BS SE</option>
 							</select>
 						</div>
-						<div class="col-md-6">
-							<label for="uploadoutline" class="form-label">Upload outline</label>
-							<input type="file" class="form-control" id="uploadoutline">
-						</div>
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<label for="imageupload" class="form-label">Upload Imagge</label>
 							<input type="file" class="form-control" id="imageupload">
+						</div>
+						<div class="col-md-12">
+							<label for="uploadoutline" class="form-label">Upload outline</label>
+							<textarea class="form-control" id="uploadoutline"></textarea>
 						</div>
 						<div class="col-md-12">
 							<label for="uploadoutline" class="form-label">.</label>
