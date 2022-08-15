@@ -109,7 +109,7 @@
                                                 <td class="cell">50</td>
                                                 <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
                                                 <td class="cell"><span class="badge bg-success">Active</span></td>
-                                                <td class="cell"><a class="btn-sm app-btn-secondary  " href="#">View</a></td>
+                                                <td class="cell"><a class="btn-sm app-btn-secondary  " href="#" onclick="openWindow()">Take Quiz</a></td>
                                             </tr>
                                             <tr>
                                                 <td class="cell"><span>169</span><span class="note">BS-IT</span><span class="note">8th</span></td>
@@ -368,7 +368,14 @@
 
     <!-- Page Specific JS -->
     <script src="assets/js/app.js"></script>
-
+    <script>
+        function openWindow() {
+            let h = screen.height,
+                w = screen.width;
+            let specs = 'height=' + h + ',width=' + w + ',location=yes,resizeable=no';
+            window.open('quiz/index.html', '', specs);
+        }
+    </script>
 </body>
 
 </html>
