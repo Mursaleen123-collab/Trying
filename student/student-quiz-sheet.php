@@ -31,15 +31,26 @@
 				<div class="col-12 col-lg-10 mx-auto " id="print-invoice">
 					<div class="app-card app-card-chart h-100 shadow-sm">
 						<!--//app-card-header-->
-						<div class="app-card-body p-3 p-lg-4">
+						<div class="app-card-body p-3 m-3 p-lg-4">
 							<div class=" row">
-								<div class="col-xs-6 col-sm-6 col-md-6">
-									<div class="receipt-left">
-										<img class="img-responsive" alt="iamgurdeeposahan" src="assets\images\invoice-logo.jpg" style="width: 71px; border-radius: 43px;">
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<div class="text-center">
+										<img class="img-responsive" src="assets\images\invoice-logo.jpg" style="width: 180px; border-radius:180px;">
 									</div>
 								</div>
+							</div>
+							<div class=" row mt-2">
 								<div class="col-xs-6 col-sm-6 col-md-6 text-end">
-									<div class="receipt-right">
+									<div class="text-start receipt-right">
+										<h5>Mursaleen Umer </h5>
+										<p><b>Mobile :</b> 0335-4961946</p>
+										<p><b>Email :</b> bthunder418@gmail.com</p>
+										<p><b>Address :</b> Khaqan Street Arif Colony Gill Road Gujranwala</p>
+									</div>
+								</div>
+
+								<div class="col-xs-6 col-sm-6 col-md-6 text-end">
+									<div class="text-start">
 										<h5>Royal College of Managment & Sciences</h5>
 										<p>055-3250765 <i class="fa fa-phone"></i></p>
 										<p>Royal@gmail.com <i class="fa fa-envelope-o"></i></p>
@@ -48,72 +59,87 @@
 								</div>
 							</div>
 
-							<div class=" row">
-								<div class=" col-md-8 text-left">
-									<div class="text-start receipt-right">
-										<h5>Mursaleen Umer </h5>
-										<p><b>Mobile :</b> 0335-4961946</p>
-										<p><b>Email :</b> bthunder418@gmail.com</p>
-										<p><b>Address :</b> Khaqan Street Arif Colony Gill Road Gujranwala</p>
-									</div>
-								</div>
-								<div class="col-md-4 ">
-									<div class="text-end pt-3">
-										<h3>INVOICE # 102</h3>
-									</div>
-								</div>
-							</div>
-
 							<div>
-								<table class="table table-bordered">
+								<table class="table table-bordered text-center">
 									<thead>
 										<tr>
-											<th>Description</th>
-											<th>Amount</th>
+											<th>Sr#</th>
+											<th>Code</th>
+											<th>Subject</th>
+											<th colspan="2">Total Marks</th>
+											<th>Percentage</th>
+											<th colspan="2">Date <br> Time</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td class="col-md-9">Payment for 6th installment</td>
-											<td class="col-md-3">15,000/-</td>
+											<td>1</td>
+											<td>CMP-2129</td>
+											<td>Data Structure</td>
+											<td>50</td>
+											<td>32</td>
+											<td>62%</td>
+											<td>8.17.2022</br> 12.19 AM</td>
 										</tr>
-										<tr>
-											<td class="text-right">
-												<p>
-													<strong>Total Amount: </strong>
-												</p>
-												<p>
-													<strong>Late Fees: </strong>
-												</p>
-												<p>
-													<strong>Payable Amount: </strong>
-												</p>
-												<p>
-													<strong>Balance Due: </strong>
-												</p>
-											</td>
-											<td>
-												<p>
-													<strong> 65,500/-</strong>
-												</p>
-												<p>
-													<strong> 500/-</strong>
-												</p>
-												<p>
-													<strong> 1300/-</strong>
-												</p>
-												<p>
-													<strong> 9500/-</strong>
-												</p>
-											</td>
-										</tr>
-										<tr>
 
-											<td class="text-right">
-												<h2><strong>Total: </strong></h2>
+										<tr>
+											<td>1</td>
+											<td>CMP-2129</td>
+											<td>Data Structure</td>
+											<td>50</td>
+											<td>32</td>
+											<td>62%</td>
+											<td>8.17.2022</br> 12.19 AM</td>
+										</tr>
+
+										<tr>
+											<td>1</td>
+											<td>CMP-2129</td>
+											<td>Data Structure</td>
+											<td>50</td>
+											<td>32</td>
+											<td>62%</td>
+											<td>8.17.2022</br> 12.19 AM</td>
+										</tr>
+
+										<tr>
+											<td>1</td>
+											<td>CMP-2129</td>
+											<td>Data Structure</td>
+											<td>50</td>
+											<td>32</td>
+											<td>62%</td>
+											<td>8.17.2022</br> 12.19 AM</td>
+										</tr>
+
+										<tr>
+											<td>1</td>
+											<td>CMP-2129</td>
+											<td>Data Structure</td>
+											<td>50</td>
+											<td>32</td>
+											<td>62%</td>
+											<td>8.17.2022</br> 12.19 AM</td>
+										</tr>
+
+										<tr>
+											<td>1</td>
+											<td>CMP-2129</td>
+											<td>Data Structure</td>
+											<td>50</td>
+											<td>32</td>
+											<td>62%</td>
+											<td>8.17.2022</br> 12.19 AM</td>
+										</tr>
+										<tr>
+											<td colspan="3">
+												<h2><strong> Percentage</strong></h2>
 											</td>
-											<td class="text-left text-danger">
-												<h2><strong> 31.566/-</strong></h2>
+											<td colspan="2">
+												<h2><strong> 192</strong></h2>
+											</td>
+											<td colspan="1">
+												<h2><strong> 86%</strong></h2>
 											</td>
 										</tr>
 									</tbody>
@@ -129,7 +155,7 @@
 								</div>
 								<div class="col-xs-4 col-sm-4 col-md-4">
 									<div class="text-end ">
-										<h5>Stamp</h5>
+										<button class="btn btn-success btn-block text-white">Print</button>
 									</div>
 								</div>
 							</div>
