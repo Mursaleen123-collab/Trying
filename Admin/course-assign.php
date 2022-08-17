@@ -126,8 +126,8 @@
         </div>
         <!--//app-content-->
         <!-- The Modal -->
-        <div class="modal fade" id="assigncoursemodal">
-            <div class="modal-dialog">
+        <div class="modal  fade" id="assigncoursemodal">
+            <div class="modal-dialog modal-xl">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
