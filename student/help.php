@@ -31,7 +31,7 @@
                 <h1 class="app-page-title">Help Center</h1>
                 <div class="app-card app-card-accordion shadow-sm mb-4">
                     <div class="app-card-header p-4 pb-2  border-0">
-                        <h4 class="app-card-title">Product</h4>
+                        <h4 class="app-card-title">Assignments</h4>
                     </div>
                     <!--//app-card-header-->
                     <div class="app-card-body p-4 pt-0">
@@ -40,22 +40,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="faq1-heading-1">
                                     <button class="accordion-button btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#faq1-1" aria-expanded="false" aria-controls="faq1-1">
-                                        Can I viverra sit amet quam eget lacinia?
+                                        How to Upload an Assignment?
                                     </button>
                                 </h2>
                                 <div id="faq1-1" class="accordion-collapse collapse border-0" aria-labelledby="faq1-heading-1">
                                     <div class="accordion-body text-start p4">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                        accusamus terry richardson ad squid. 3 wolf moon officia
-                                        aute, non cupidatat skateboard dolor brunch. Food truck
-                                        quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee
-                                        nulla assumenda shoreditch et. Nihil anim keffiyeh
-                                        helvetica, craft beer labore wes anderson cred nesciunt
-                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                        Leggings occaecat craft beer farm-to-table, raw denim
-                                        aesthetic synth nesciunt you probably haven't heard of them
-                                        accusamus labore sustainable VHS.
+                                        Text changes
                                     </div>
                                 </div>
                             </div>

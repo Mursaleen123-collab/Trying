@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- FontAwesome JS-->
@@ -29,17 +31,15 @@
                 <div class="app-card alert alert-dismissible shadow-sm mb-4 border-left-decoration" role="alert">
                     <div class="inner">
                         <div class="app-card-body   p-lg-2">
-                            <h3 class="mb-3">Hi <span class="text-success">Teacher!</span></h3>
+                            <h3 class="mb-3">Add <span class="text-success">Event!</span></h3>
                             <div class="row gx-5 gy-3">
                                 <div class="col-12 col-lg-9">
-                                    <div> You can upload assignment only your assigned subjects </div>
+                                    <div> You can upload only one image (cover) </div>
                                     <div>Portal is a free Bootstrap 5 admin dashboard template. The design is simple, clean and modular so it's a great base for building any modern web app.</div>
                                 </div>
                                 <!--//col-->
                                 <div class="col-12 col-lg-3">
-                                    <a class="btn app-btn-primary" href="course-assign.php">
-                                        Check Assign Course
-                                    </a>
+                                   
                                 </div>
                                 <!--//col-->
                             </div>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="row g-3 mb-4 align-items-center justify-content-between">
                     <div class="col-auto">
-                        <h1 class="app-page-title mb-0">Assignment</h1>
+                        <h1 class="app-page-title mb-0">Events</h1>
                     </div>
                     <div class="col-auto">
                         <div class="page-utilities">
@@ -68,27 +68,8 @@
                                         </div>
                                     </form>
                                 </div>
-                                <!--//col-->
                                 <div class="col-auto">
-                                    <select class="form-select w-auto">
-                                        <option selected value="option-1">Degree Wise</option>
-                                        <option value="option-2">BS IT</option>
-                                        <option value="option-3">BS CS</option>
-                                        <option value="option-4">BS SE</option>
-                                    </select>
-                                </div>
-                                <!--//col-->
-                                <div class="col-auto">
-                                    <select class="form-select w-auto">
-                                        <option selected value="option-1">All</option>
-                                        <option value="option-2">This week</option>
-                                        <option value="option-3">This month</option>
-                                        <option value="option-4">Last 3 months</option>
-
-                                    </select>
-                                </div>
-                                <div class="col-auto">
-                                    <a class="btn  text-white btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal" href="#"> Add Assignment </a>
+                                    <a class="btn  text-white btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal" href="#"> Add Event </a>
                                 </div>
                             </div>
                             <!--//row-->
@@ -108,24 +89,19 @@
                                 <table class="table app-table-hover mb-0 text-left">
                                     <thead>
                                         <tr>
-                                            <th class="cell">Asg ID <br> Degree <br> Semester</th>
-                                            <th class="cell">Subject Code</th>
-                                            <th class="cell">Subject Name</th>
-                                            <th class="cell">Date</th>
-                                            <th class="cell">Download</th>
-                                            <th class="cell">Status</th>
+                                            <th class="cell">Event Name</th>
+                                            <th class="cell">Event Desc</th>
+                                            <th class="cell">Event Date</th>
                                             <th class="cell"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="cell"><span>169</span><span class="note">BS-IT</span><span class="note">8th</span></td>
                                             <td class="cell">CMP-6765</td>
                                             <td class="cell">Web System & Technologies</td>
-                                            <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
-                                            <td class="cell"><a href="assets/download/ASS-WEB.txt" download="">download</a></td>
-                                            <td class="cell"><span class="badge bg-success">Active</span></td>
-                                            <td class="cell"><a class="btn-sm app-btn-secondary  " href="#">View</a></td>
+                                            <td class="cell">25/08/2022</td>
+                                            <td class="cell"><span class="badge bg-info" data-bs-toggle="modal" data-bs-target="#myModal">Edit</span>
+                                                <span class="badge bg-danger">Delete</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -175,59 +151,28 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Add Quiz</h4>
+                        <h4 class="modal-title">Add Event</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <!-- Modal body -->
                     <div class="modal-body">
                         <form class="row g-3">
-                            <div class="col-md-3">
-                                <label for="quizid" class="form-label">Quiz ID</label>
-                                <input type="text" class="form-control" id="quizid" disabled>
+                            <div class="col-md-12">
+                                <label for="eventname" class="form-label">Event Name</label>
+                                <input type="text"  id="eventname" class="form-control" placeholder="Event Name">
                             </div>
                             <div class="col-md-6">
-                                <label for="Degreename" class="form-label">Degree Name</label>
-                                <select id="Degreename" class="form-select">
-                                    <option selected>Choose...</option>
-                                    <option>BS IT</option>
-                                    <option>BS CS</option>
-                                    <option>BS SE</option>
-                                </select>
-                            </div>
-                            <div class="col-md-3">
-                                <label for="Degreename" class="form-label">Semester No</label>
-                                <select id="Degreename" class="form-select">
-                                    <option selected>Choose...</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                    <option>7</option>
-                                    <option>8</option>
-                                </select>
+                                <label for="eventimage" class="form-label">Event Image</label>
+                                <input type="file"  id="eventimage" class="form-control" placeholder="Event Image">
                             </div>
                             <div class="col-md-6">
-                                <label for="subjectname" class="form-label">Subeject Name</label>
-                                <input type="text" class="form-control" id="subjectname">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="Subjectcode" class="form-label">Subject Code</label>
-                                <input type="text" class="form-control" id="Subjectcode">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="assignment" class="form-label">Assignment</label>
-                                <input type="file" class="form-control" id="assignment">
-                            </div>
-                            <div class="col-md-3">
-                                <label for="startingdate" class="form-label">Starting Date</label>
-                                <input type="date" class="form-control" id="startingdate">
-                            </div>
-                            <div class="col-md-3">
-                                <label for="endingdate" class="form-label">Ending Date</label>
-                                <input type="date" class="form-control" id="endingdate">
+                                <label for="eventdate" class="form-label">Event Date</label>
+                                <input type="date"  id="eventdate" class="form-control" placeholder="Event Date">
+                            </div>\
+                            <div class="col-md-12">
+                                <label for="eventdesc" class="form-label">Event desc</label>
+                                <textarea class="form-control" id="eventdesc" row="5"></textarea>                    
                             </div>
                             <div class="col-md-10"></div>
                             <div class="col-md-2">

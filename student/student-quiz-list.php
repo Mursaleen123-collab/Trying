@@ -63,9 +63,6 @@
 
                                     </select>
                                 </div>
-                                <div class="col-auto">
-                                    <a class="btn app-btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal" href="#"> Add Quiz </a>
-                                </div>
                             </div>
                             <!--//row-->
                         </div>
@@ -78,7 +75,7 @@
 
                 <nav id="orders-table-tab" class="orders-table-tab app-nav-tabs nav shadow-sm flex-column flex-sm-row mb-4">
                     <a class="flex-sm-fill text-sm-center nav-link active" id="orders-all-tab" data-bs-toggle="tab" href="#orders-all" role="tab" aria-controls="orders-all" aria-selected="true">All</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" id="orders-paid-tab" data-bs-toggle="tab" href="#orders-paid" role="tab" aria-controls="orders-paid" aria-selected="false">Active</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" id="orders-active-tab" data-bs-toggle="tab" href="#orders-active" role="tab" aria-controls="orders-active" aria-selected="false">Active</a>
                     <a class="flex-sm-fill text-sm-center nav-link" id="orders-pending-tab" data-bs-toggle="tab" href="#orders-pending" role="tab" aria-controls="orders-pending" aria-selected="false">Upcoming</a>
                     <a class="flex-sm-fill text-sm-center nav-link" id="orders-cancelled-tab" data-bs-toggle="tab" href="#orders-cancelled" role="tab" aria-controls="orders-cancelled" aria-selected="false">Cancelled</a>
                 </nav>
@@ -118,7 +115,7 @@
                                                 <td class="cell">50</td>
                                                 <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
                                                 <td class="cell"><span class="badge bg-warning">Upcoming</span></td>
-                                                <td class="cell"><a class="btn-sm app-btn-secondary  " href="#">View</a></td>
+                                                <td class="cell"><a class="btn-sm app-btn-secondary  " href="#" onclick="openWindow()">Take Quiz</a></td>
                                             </tr>
                                             <tr>
                                                 <td class="cell"><span>169</span><span class="note">BS-IT</span><span class="note">8th</span></td>
@@ -127,7 +124,7 @@
                                                 <td class="cell">50</td>
                                                 <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
                                                 <td class="cell"><span class="badge bg-danger">Cancelled</span></td>
-                                                <td class="cell"><a class="btn-sm app-btn-secondary  " href="#">View</a></td>
+                                                <td class="cell"><a class="btn-sm app-btn-secondary  " href="#" onclick="openWindow()">Take Quiz</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -156,7 +153,7 @@
                     </div>
                     <!--//tab-pane-->
 
-                    <div class="tab-pane fade" id="orders-paid" role="tabpanel" aria-labelledby="orders-paid-tab">
+                    <div class="tab-pane fade" id="orders-active" role="tabpanel" aria-labelledby="orders-active-tab">
                         <div class="app-card app-card-orders-table mb-5">
                             <div class="app-card-body">
                                 <div class="table-responsive">
