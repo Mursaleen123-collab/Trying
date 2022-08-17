@@ -40,13 +40,12 @@
                 <h2>Frequently Answered Questions</h2>
             </div>
         </div><!-- End Breadcrumbs -->
-        <div class="container-fluid my-4">
+        <div class="container my-4 shadow-lg p-3 mb-5 bg-body rounded">
             <div class="row">
-                <div class="col-md-4 p-4">
-                    <img src="assets/img/faq.svg" alt="" class="img ">
+                <div class="col-md-6 p-4">
+                    <img src="assets/img/faq.svg" alt="" class="img-thumbnail ">
                 </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-5 p-4">
+                <div class="col-md-6 p-4">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
