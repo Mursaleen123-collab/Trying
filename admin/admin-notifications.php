@@ -114,7 +114,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="Detail" class="form-label">Detail</label>
-                                <input type="date" class="form-control" id="endingdate">
+                                <textarea class="form-control" id="endingdate"></textarea>
                             </div>
                             <div class="col-md-10"></div>
                             <div class="col-md-2">
