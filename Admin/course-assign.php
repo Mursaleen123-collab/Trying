@@ -192,10 +192,8 @@
                                             <tbody>
                                                 <tr>
                                                     <td class="align-middle">09:00am</td>
-                                                    <td>
-                                                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Dance</span>
-                                                        <div class="margin-10px-top font-size14">9:00-10:00</div>
-                                                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                                    <td class="mt-3">
+                                                        <span class="bg-secondary padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">11</span>
                                                     </td>
                                                     <td>
                                                         <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Yoga</span>
