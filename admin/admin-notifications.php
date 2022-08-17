@@ -113,8 +113,8 @@
 
                             </div>
                             <div class="col-md-6">
-                                <label for="Detail" class="form-label">Detail</label>
-                                <textarea class="form-control" id="endingdate"></textarea>
+                                <label for="detail" class="form-label">Detail</label>
+                                <textarea class="form-control" id="detail" rows="10" cols="20"></textarea>
                             </div>
                             <div class="col-md-10"></div>
                             <div class="col-md-2">
