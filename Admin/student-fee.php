@@ -9,8 +9,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- FontAwesome JS-->
@@ -114,7 +112,7 @@
 									</div>
 									<div class="col-md-8">
 										<label for="feetopay" class="form-label">_</label>
-										<input type="number" class="form-control" id="feetopay" placeholder="Add fee amount to Pay">
+										<input type="number" class="form-control" id="feetopay" placeholder="Add invoice number">
 									</div>
 									<div class="col-md-4">
 										<label for="" class="form-label"> .</label>
@@ -137,6 +135,7 @@
 											<tr>
 												<th class="cell">Sr#</th>
 												<th class="cell">Name</th>
+												<th class="cell">Invoice</th>
 												<th class="cell">Date</th>
 												<th class="cell">Amount</th>
 											</tr>
@@ -145,32 +144,23 @@
 											<tr>
 												<td class="cell">1</td>
 												<td class="cell">Mursaleen Umar</td>
+												<td class="cell">112018</td>
 												<td class="cell">11/09/2018</td>
 												<td class="cell">50000</td>
 											</tr>
 											<tr>
-												<td class="cell">2</td>
+												<td class="cell">1</td>
 												<td class="cell">Mursaleen Umar</td>
+												<td class="cell">112018</td>
 												<td class="cell">11/09/2018</td>
 												<td class="cell">50000</td>
 											</tr>
 											<tr>
-												<td class="cell">3</td>
+												<td class="cell">1</td>
 												<td class="cell">Mursaleen Umar</td>
+												<td class="cell">112018</td>
 												<td class="cell">11/09/2018</td>
 												<td class="cell">50000</td>
-											</tr>
-											<tr>
-												<td class="cell" colspan="3">Total Paid</td>
-												<td class="cell">150000</td>
-											</tr>
-											<tr>
-												<td class="cell" colspan="3">Total Fee:</td>
-												<td class="cell">400000</td>
-											</tr>
-											<tr class="table-dark">
-												<td class="cell" colspan="3">Remaining :</td>
-												<td class="cell">350000</td>
 											</tr>
 										</tbody>
 									</table>
