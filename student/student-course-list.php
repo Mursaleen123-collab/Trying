@@ -85,7 +85,7 @@
                             <div class="app-card-header p-3">
                                 <div class="row justify-content-between align-items-center">
                                     <div class="col-auto">
-                                        <h4 class="app-card-title">List of Subjects</h4>
+                                        <h4 class="app-card-title">Assign Teacher</h4>
                                     </div>
                                     <!--//col-->
                                 </div>
@@ -116,7 +116,7 @@
                                                 <td class="cell">CMP-6567<br>Web System & Technologies</td>
                                                 <td class="cell">Jhon Doe</td>
                                                 <td class="cell"><a href="#" class="badge bg-success">Visit Profile</a> </td>
-                                            </tr>s
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
