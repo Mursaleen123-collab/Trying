@@ -9,12 +9,12 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li><a class="active" href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
                 <li><a href="courses.php">Degree</a></li>
                 <li><a href="trainers.php">Trainers</a></li>
                 <li><a href="events.php">Events</a></li>
-
+                <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="faq.php">FAQ</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
