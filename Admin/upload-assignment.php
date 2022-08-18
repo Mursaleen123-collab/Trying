@@ -175,17 +175,13 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Add Quiz</h4>
+                        <h4 class="modal-title">Add Assignment</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <!-- Modal body -->
                     <div class="modal-body">
                         <form class="row g-3">
-                            <div class="col-md-3">
-                                <label for="quizid" class="form-label">Quiz ID</label>
-                                <input type="text" class="form-control" id="quizid" disabled>
-                            </div>
                             <div class="col-md-6">
                                 <label for="Degreename" class="form-label">Degree Name</label>
                                 <select id="Degreename" class="form-select">

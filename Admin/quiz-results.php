@@ -9,8 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- FontAwesome JS-->
@@ -97,7 +95,7 @@
                                                 <th class="cell">Subject Name</th>
                                                 <th class="cell">Student Name</th>
                                                 <th class="cell">Email</th>
-                                                <th class="cell">Attempted<br>Questions</th>
+                                                <th class="cell" colspan="2">Attempted<br>Questions</th>
                                                 <th class="cell">Time & <br> Due Date</th>
                                                 <th class="cell">Status</th>
                                             </tr>
@@ -110,6 +108,7 @@
                                                 <td class="cell">Mursaleen Umar</td>
                                                 <td class="cell">bthunder418@gmail.com</td>
                                                 <td class="cell">25/50</td>
+                                                <td class="cell">50%</td>
                                                 <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
                                                 <td class="cell"><span class="badge bg-info">Done</span></td>
                                             </tr>
@@ -120,6 +119,7 @@
                                                 <td class="cell">Mursaleen Umar</td>
                                                 <td class="cell">bthunder418@gmail.com</td>
                                                 <td class="cell">25/50</td>
+                                                <td class="cell">50%</td>
                                                 <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
                                                 <td class="cell"><span class="badge bg-success">active</span></td>
                                             </tr>
@@ -130,6 +130,7 @@
                                                 <td class="cell">Mursaleen Umar</td>
                                                 <td class="cell">bthunder418@gmail.com</td>
                                                 <td class="cell">25/50</td>
+                                                <td class="cell">50%</td>
                                                 <td class="cell"><span>60 minutes</span><span class="note">25/08/2022 to <br>28/08/2022</span></td>
                                                 <td class="cell"><span class="badge bg-warning">Upcoming</span></td>
                                             </tr>

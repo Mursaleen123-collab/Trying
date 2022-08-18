@@ -98,9 +98,21 @@
                                 <label for="title" class="form-label">Title</label>
                                 <input type="text" class="form-control" id="title">
                             </div>
+                            <div class="col-md-6">
+                                <label for="createdby" class="form-label">Created By</label>
+                                <input type="text" class="form-control" id="createdby" disabled>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="createdat" class="form-label">Created At</label>
+                                <input type="date" class="form-control" id="createdat" disabled>
+                            </div>
                             <div class="col-md-6 pb-0 mb-0">
                                 <label for="title" class="form-label">Select Degree</label>
                                 <!-- Default checkbox -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                                    <label class="form-check-label" for="flexCheckChecked">All</label>
+                                </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
                                     <label class="form-check-label" for="flexCheckChecked">BS Information Technology</label>
@@ -118,7 +130,7 @@
                             </div>
                             <div class="col-md-10"></div>
                             <div class="col-md-2">
-                                <input type="submit" class="form-control btn app-btn-secondary" id="submit" value="Add">
+                                <input type="submit" class="form-control btn app-btn-secondary" id="submit" value="Send">
                             </div>
                         </form>
                     </div>

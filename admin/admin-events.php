@@ -9,8 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- FontAwesome JS-->
@@ -39,7 +37,7 @@
                                 </div>
                                 <!--//col-->
                                 <div class="col-12 col-lg-3">
-                                   
+
                                 </div>
                                 <!--//col-->
                             </div>
@@ -101,7 +99,8 @@
                                             <td class="cell">Web System & Technologies</td>
                                             <td class="cell">25/08/2022</td>
                                             <td class="cell"><span class="badge bg-info" data-bs-toggle="modal" data-bs-target="#myModal">Edit</span>
-                                                <span class="badge bg-danger">Delete</span></td>
+                                                <span class="badge bg-danger">Delete</span>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -160,19 +159,27 @@
                         <form class="row g-3">
                             <div class="col-md-12">
                                 <label for="eventname" class="form-label">Event Name</label>
-                                <input type="text"  id="eventname" class="form-control" placeholder="Event Name">
+                                <input type="text" id="eventname" class="form-control" placeholder="Event Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="eventplace" class="form-label">Event Place</label>
+                                <input type="text" id="eventplace" class="form-control" placeholder="Event Place">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="eventtime" class="form-label">Event Time</label>
+                                <input type="time" id="eventtime" class="form-control" placeholder="Event Time">
                             </div>
                             <div class="col-md-6">
                                 <label for="eventimage" class="form-label">Event Image</label>
-                                <input type="file"  id="eventimage" class="form-control" placeholder="Event Image">
+                                <input type="file" id="eventimage" class="form-control" placeholder="Event Image">
                             </div>
                             <div class="col-md-6">
                                 <label for="eventdate" class="form-label">Event Date</label>
-                                <input type="date"  id="eventdate" class="form-control" placeholder="Event Date">
-                            </div>\
+                                <input type="date" id="eventdate" class="form-control" placeholder="Event Date">
+                            </div>
                             <div class="col-md-12">
                                 <label for="eventdesc" class="form-label">Event desc</label>
-                                <textarea class="form-control" id="eventdesc" row="5"></textarea>                    
+                                <textarea class="form-control" id="eventdesc" row="5"></textarea>
                             </div>
                             <div class="col-md-10"></div>
                             <div class="col-md-2">

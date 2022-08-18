@@ -9,8 +9,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- FontAwesome JS-->
@@ -40,7 +38,9 @@
 									<!--//col-->
 									<div class="col-auto">
 										<div class="card-header-action">
-											<a href="admin-list.php">Veiw All</a>
+											<a class="btn app-btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal" href="#"> Add Post </a>
+
+											<a href="admin-list.php" class="btn app-btn-secondary">Veiw All</a>
 										</div>
 										<!--//card-header-actions-->
 									</div>
@@ -100,14 +100,9 @@
 											</div>
 										</div>
 										<div class="mb-3 row">
-											<label for="specialization" class="col-sm-4 col-form-label">Specialization</label>
-											<div class="col-sm-8 ">
-												<select class="form-select form-select-md" aria-label=".form-select-sm example">
-													<option selected>Open this select menu</option>
-													<option value="1">Teacher</option>
-													<option value="2">Examiner</option>
-													<option value="3">Acadamics</option>
-												</select>
+											<label for="specialization" class="col-sm-3 col-form-label">Specialization</label>
+											<div class="col-sm-9 ">
+												<input type="number" class="form-control" id="salary">
 											</div>
 										</div>
 										<div class="mb-3 row">
@@ -148,6 +143,35 @@
 	</div>
 	<!--//app-wrapper-->
 
+
+	<!-- The Modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Add Post</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<form class="row g-3">
+						<div class="col-md-12">
+							<label for="postname" class="form-label">Post Name</label>
+							<input type="text" class="form-control" id="postname">
+						</div>
+						<div class="col-md-10"></div>
+						<div class="col-md-2">
+							<input type="submit" class="form-control btn app-btn-secondary" id="submit" value="Add">
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
 
 	<!-- Javascript -->
 	<script src="assets/plugins/popper.min.js"></script>

@@ -63,6 +63,18 @@
 											<label for="image" class="form-label">Image</label>
 											<input type="file" class="form-control" id="image">
 										</div>
+										<div class="col-md-4">
+											<label for="studentcnic" class="form-label">Student CNIC</label>
+											<input type="text" class="form-control" id="studentcnic">
+										</div>
+										<div class="col-md-4">
+											<label for="fathercnic" class="form-label">Father CNIC</label>
+											<input type="text" class="form-control" id="fathercnic">
+										</div>
+										<div class="col-md-4">
+											<label for="fathername" class="form-label">Father Name</label>
+											<input type="text" class="form-control" id="fathername">
+										</div>
 										<div class="col-md-6">
 											<label for="email" class="form-label">Email</label>
 											<input type="email" class="form-control" id="email">
@@ -110,17 +122,6 @@
 										<div class="col-md-4">
 											<label for="inputCity" class="form-label">City</label>
 											<input type="text" class="form-control" id="inputCity">
-										</div>
-										<div class="col-md-4">
-											<label for="inputState" class="form-label">State</label>
-											<select id="inputState" class="form-select">
-												<option selected>Choose...</option>
-												<option>...</option>
-											</select>
-										</div>
-										<div class="col-md-2">
-											<label for="inputZip" class="form-label">Zip</label>
-											<input type="text" class="form-control" id="inputZip">
 										</div>
 										<div class="col-md-2">
 											<label for="studentfee" class="form-label">Fee/-</label>
